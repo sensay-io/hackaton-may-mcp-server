@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "sensay": {
+            "command": "node",
+            "args": [
+                "/Users/maciejkowalski/Documents/sensay/hacks/hackaton-may-mcp-server/build/index.js"
+            ],
+            "env": {
+                "X_USER_ID": "your_user_id_here",
+                "X_ORGANIZATION_SECRET": "your_organization_secret_here",
+                "REPLICA_UUID": "your_replica_uuid_here"
+            }
+        }
+    }
+}

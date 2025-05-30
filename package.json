@@ -1,0 +1,36 @@
+{
+  "name": "hackaton-may-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensay-io/hackaton-may-mcp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sensay-io/hackaton-may-mcp-server/issues"
+  },
+  "homepage": "https://github.com/sensay-io/hackaton-may-mcp-server#readme",
+  "type": "module",
+  "bin": {
+    "sensay-mcp": "index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.41"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.27",
+    "typescript": "^5.8.3"
+  }
+}

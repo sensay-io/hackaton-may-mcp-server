@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "sensay": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "hackaton-may-mcp-server"
+            ],
+            "env": {
+                "X_USER_ID": "your_user_id_here",
+                "X_ORGANIZATION_SECRET": "your_organization_secret_here",
+                "REPLICA_UUID": "your_replica_uuid_here"
+            }
+        }
+    }
+}

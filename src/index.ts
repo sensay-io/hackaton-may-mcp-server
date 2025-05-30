@@ -24,7 +24,10 @@ const server = new McpServer({
   version: "1.0.0",
   capabilities: {
     resources: {},
-    tools: {},
+    tools: {
+      listTools: {},
+      callTool: {},
+    },
   },
 });
 
@@ -65,7 +68,7 @@ server.tool("Ask Sensay", "Get business rules of the sensay.ai", {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Weather MCP Server running on stdio");
+  console.error("Sensay MCP Server running on stdio");
 }
 
 main().catch((error) => {

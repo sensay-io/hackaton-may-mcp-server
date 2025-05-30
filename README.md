@@ -2,6 +2,8 @@
 
 This repository contains an MCP (Model Context Protocol) server that integrates with Sensay.ai's Replika. The goal is to bridge the gap between AI code generation tools (like Cursor IDE) and your organization's business rules (e.g. pricing, KYC compliance, regulatory data). The MCP server exposes an API for developers and AI agents to query business logic stored in Replika's RAG system, enabling direct access to business knowledge while writing code.
 
+## Demo
+
 ![MCP Server Demo](demo.gif)
 
 ## What Does the MCP Server Do?
